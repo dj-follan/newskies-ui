@@ -2,8 +2,114 @@
 <html>
 <head>
 	<title></title>
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap');
+		*{
+			font-family: 'Open Sans', sans-serif;
+		}
+		button:focus{
+			outline: none;
+		}
+		.button1{
+			padding: 10px 20px;
+			color: #000;
+			border: 0;
+			border-radius: 4px;
+			background-color: #efefef;
+			transition: 0.25s all ease;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+			cursor: pointer;
+			display: block;
+			margin: 30px;
+		}
+		.button1:hover{
+			background-color: transparent;
+		}
+		.button2{
+			display: block;
+			margin: 30px;
+			font-size: 13px;
+			font-weight: 800;
+			text-transform: uppercase;
+			color: #000;
+			background: #eee;
+			padding: 10px 20px;
+			border-radius: 4px;
+			border: 0;
+			cursor: pointer;
+			transition: 0.25s all ease;
+		}
+		.button2:hover{
+			background: #fff;
+		}
+		.button3{
+			cursor: pointer;
+			background: #fdd000;
+			color: #000;
+			border: 0;
+			display: block;
+			padding: 10px 20px;
+			margin: 30px;
+			text-transform: uppercase;
+			font-weight: 800;
+			transition: 0.25s all ease;
+		}
+		.button3:hover{
+			background: #fff;
+		}
+		.button3:focus{
+			opacity: 0.7;
+		}
+		.button4{
+			background: #348fe2;
+			color: #fff;
+			font-weight: bold;
+			font-size: 12px;
+			padding: 5px 20px;
+			border-radius: 4px;
+			border: 0;
+			box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+			cursor: pointer;
+			display: block;
+			margin: 30px;
+			transition: 0.25s all ease;
+		}
+		.button4:hover{
+			box-shadow: 0 .3rem .7rem rgba(0,0,0,.15);
+			opacity: 0.8;
+		}
+		.button4:focus{
+			box-shadow: none;
+		}
+		.button5{
+			padding: 10px 20px;
+			padding-left: 0;
+			border-radius: 4px;
+			transition: 0.25s all ease;
+			border: 0;
+			display: block;
+			margin: 30px;
+			background: #fff;
+			cursor: pointer;
+		}
+		.button5:hover{
+			padding-left: 20px;
+			background: #efefef;
+		}
+		.div{
+			padding-top: 50px;
+			padding-bottom: 50px;
+			text-align: center;
+		}
+	</style>
 </head>
 <body>
-	<h1>YES</h1>
+	<div class="div">
+		<button class="button1">Button 1</button>
+		<button class="button2">Button 2</button>
+		<button class="button3">Button 3</button>
+		<button class="button4">Button 4</button>
+		<button class="button5">Button 5</button>
+	</div>
 </body>
 </html>
